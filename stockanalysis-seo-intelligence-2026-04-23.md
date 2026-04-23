@@ -225,4 +225,157 @@ StockAnalysis is executing a **three-layer SEO strategy**:
 
 ---
 
-*Report compiled: April 23, 2026. Sources: Similarweb, StockAnalysis.com changelog, third-party reviews (TheTradeAdvice, WallStreetZen, RyanOConnellFinance), web search intelligence.*
+*Report compiled: April 23, 2026 — v1. Sources: Similarweb, StockAnalysis.com changelog, third-party reviews (TheTradeAdvice, WallStreetZen, RyanOConnellFinance), web search intelligence.*
+
+---
+
+## Intelligence Update — April 23, 2026 (Second Sweep)
+
+The following findings emerged from a deeper search sweep conducted on the same date. They represent additional threat vectors not captured in the initial report.
+
+---
+
+### U1. Third-Party "Alternatives" Content Is Positioning StockAnalysis as the Default TipRanks Substitute
+
+**What's happening:** Multiple high-authority third-party sites now have dedicated content explicitly positioning StockAnalysis.com as the top alternative to TipRanks:
+
+- **Benzinga** — "8 Best TipRanks Alternatives in April 2026" features StockAnalysis.com
+- **FindMyMoat** — Direct "Stock Analysis vs TipRanks" comparison page at `/vs/stock-analysis-vs-tipranks`
+- **PinkLion** — "TipRanks Alternatives: 13 Best Analyst-Rating Tools for 2025" lists StockAnalysis
+- **MatchMyBroker, SlashDot, SourceForge, CBInsights** — All include StockAnalysis.com in TipRanks competitor lists
+
+**Why this matters:**
+When users search "TipRanks alternatives" or "TipRanks vs StockAnalysis," they land on third-party pages that declare StockAnalysis as the winner on data breadth and price. TipRanks has no direct control over this narrative. The comparison pages systematically favor StockAnalysis because its free tier is more generous and its Pro plan (~$10/mo) is radically cheaper than TipRanks Premium ($360/yr) or Ultimate ($600/yr).
+
+**Threat level: CRITICAL**
+
+This is a brand-level SEO threat. These pages rank for navigational intent queries — users actively considering switching away from TipRanks. Every click that lands on a "TipRanks alternatives" page is a potential churn event.
+
+**Recommended response:**
+- **Build product-comparison landing pages on TipRanks.com itself** (e.g., `/tipranks-vs-stockanalysis/`) that control the narrative with honest differentiation — analyst ratings depth, SmartScore, insider data, hedge fund tracking
+- **Earn coverage in these comparison roundups** — engage content publishers, provide updated data points, and ensure TipRanks wins on at least one axis (analyst data quality) in every roundup
+- **Strengthen conversion hooks on the free tier** to reduce the perception of a value gap
+- **Don't ignore the price narrative** — TipRanks should clearly communicate what $360/yr buys that $10/mo does not
+
+---
+
+### U2. StockAnalysis Is Now Ranking for Options Tool Queries
+
+**What's happening:** StockAnalysis published an article titled **"The 7 Best Options Analysis Software and Tools in 2026"** at `/article/best-options-analysis-software/`. This page is indexed and ranking.
+
+**Why this matters:**
+This extends StockAnalysis's content reach into the **options investor segment** — a higher-intent, higher-LTV user cohort. "Best options analysis software" is a commercial investigation query with moderate-to-high volume. More importantly, it signals StockAnalysis is using editorial articles not just for informational SEO but to **capture commercial-intent queries across adjacent tool categories**.
+
+**Threat level: MEDIUM-HIGH**
+
+TipRanks offers options data. If TipRanks doesn't rank for options tool comparison queries, StockAnalysis wins that discovery channel.
+
+**Recommended response:**
+- **Build or refresh a dedicated options tool landing page** on TipRanks
+- **Publish a comparison article** like "Best Platforms for Options Research" that TipRanks can own and rank for — and include TipRanks' options data (implied volatility, options flow, analyst options sentiment) as differentiators
+
+---
+
+### U3. Fiscal AI Data Integration — Full Scope of the Threat
+
+**What's happening:** StockAnalysis completed a migration of its primary financial data source to **Fiscal.ai** for US and Canadian stocks (with S&P Global retained as a fallback). The specific improvements this brings:
+
+- **20-year financial history** (vs. shorter windows previously)
+- **40 quarters of quarterly data** available
+- **Data available instantly post-earnings** — no lag between earnings release and page update
+- **Both as-reported AND standardized financial statements** — serving both casual users and sophisticated analysts
+- **Improved ADR and Canadian company coverage**
+
+**Why this matters:**
+This directly addresses a frequent critique of free financial data tools: stale or shallow histories. With instant post-earnings data, StockAnalysis can now update its stock pages before TipRanks or other competitors, which creates **freshness advantages in Google's ranking signals**. The 20-year history also enables them to rank for "historical financials" and "long-term financial data" queries that TipRanks may not match.
+
+**Threat level: HIGH**
+
+**Recommended response:**
+- **Audit TipRanks financial history depth** on key stock pages — how many years of data are shown, how quickly after earnings does data update?
+- If TipRanks has a data lag post-earnings, **surface this as a fix priority** — freshness is both a user experience and SEO signal
+- Ensure as-reported financials are available on TipRanks stock pages where they are not
+
+---
+
+### U4. Price Gap Is Widening as a Conversion Threat in SERPs
+
+**What's happening:** Every third-party review, comparison article, and roundup prominently features StockAnalysis.com's Pro plan pricing (~$10/month) against TipRanks Premium ($360/year ≈ $30/month) and Ultimate ($600/year ≈ $50/month).
+
+The 3x–5x price gap is now a **standard talking point** in comparison content. Even reviews that rate TipRanks higher on analyst data quality consistently recommend StockAnalysis for users who are "budget-conscious" — which is most retail investors.
+
+**Why this matters:**
+The screener query funnel — "stock screener," "best free stock screener" — is where StockAnalysis wins on price. TipRanks' premium pricing looks like a barrier when presented next to a competitor with 299 filters for ~$10/month. In SERP snippets, this price comparison is visible and persuasive.
+
+**Threat level: HIGH**
+
+**Recommended response:**
+- **Reassess TipRanks free tier scope** — can more screener filters be surfaced for free to compete with StockAnalysis's free-tier breadth?
+- **Reframe TipRanks' value proposition in on-page copy** — StockAnalysis has more filters; TipRanks has better signals. The copy on TipRanks screener pages must articulate why a SmartScore, insider activity filter, and analyst track record filter are worth more than 200 extra fundamental filters
+- **Consider a lower-priced entry tier** that captures budget-sensitive users before they convert to StockAnalysis Pro
+
+---
+
+### U5. Mobile App as an Organic Growth Channel
+
+**What's happening:** StockAnalysis.com launched native iOS and Android apps (App Store ID: `6751272467`, Play Store: `com.stockanalysis.app`) with a substantial feature set:
+
+- 100+ technical analysis studies on advanced charts
+- Financial history, dividend histories, analyst price targets
+- Stock and ETF comparison tools
+- Market movers, IPO calendar, watchlists
+- Pre-market and after-hours data (Pro)
+- Rated highly for fast page load performance
+
+**Why this matters:**
+Mobile apps generate App Store/Play Store organic discovery (a channel completely separate from Google search), create push notification re-engagement, and drive direct return visits — all of which reduce dependence on SEO. A user who downloads StockAnalysis's app is substantially less likely to use TipRanks on mobile. App store ranking for "stock screener," "stock analysis," and "dividend tracker" are competitive keyword slots.
+
+**Threat level: MEDIUM-HIGH**
+
+**Recommended response:**
+- **Audit TipRanks mobile app ratings and feature parity** against StockAnalysis on App Store / Play Store
+- Ensure TipRanks app surfaces SmartScore and analyst data prominently — these are the features that have no equivalent in the StockAnalysis app
+- **Optimize TipRanks' App Store listing** (ASO) for queries StockAnalysis is also targeting
+
+---
+
+### U6. Updated Competitive Positioning Summary
+
+Based on this second intelligence sweep, the competitive situation is as follows:
+
+| Dimension | StockAnalysis Advantage | TipRanks Advantage |
+|---|---|---|
+| Screener filter depth | 299 filters, real-time | SmartScore, insider, ETF holding filters |
+| Financial data | 20-yr history, instant post-earnings, as-reported | — |
+| Analyst ratings depth | Benzinga-sourced, analyst star rankings | Deep track record, coverage breadth, unique SmartScore |
+| Pricing / free tier | ~$10/mo Pro, very generous free tier | Premium features justify higher price for professional users |
+| IPO coverage | Full cluster (screener, calendar, year pages, stats) | Partial — gap exists |
+| Calculator tools | Dividend calc, CAGR calc, dedicated tools hub | None identified |
+| ETF tools | 107 metrics, comparison, holdings breakdown | Needs benchmarking |
+| Sector/Industry pages | 145 industries, sortable by metrics | Needs benchmarking |
+| Brokerage sync | Beta (Pro) | Smart Portfolio — needs feature parity check |
+| Mobile app | Full-featured, 100+ chart studies | Needs feature parity audit |
+| Insider/hedge fund data | Not present | TipRanks exclusive advantage |
+| News sentiment | Not present | TipRanks exclusive advantage |
+| Content articles | Expanding into options, IPO, AI investing topics | Present but must expand |
+| Third-party narrative | Positioned as #1 TipRanks alternative | Losing the narrative war in comparison content |
+
+---
+
+### Updated Priority Action List (Post Second Sweep)
+
+**Add these to this week's critical actions:**
+
+1. **Own the "TipRanks vs StockAnalysis" narrative.** Build a TipRanks-authored comparison page. This is the highest-ROI content action available — it captures navigational-intent traffic currently flowing to third-party pages that favor StockAnalysis.
+
+2. **Options research landing page.** StockAnalysis is now ranking for options tool queries. TipRanks has the data to win this segment. Build the page this week.
+
+3. **App Store parity audit.** Pull StockAnalysis app store ratings and reviews this week. Identify any features users praise that TipRanks mobile lacks. These are product gaps with direct retention implications.
+
+4. **Post-earnings data freshness check.** Test TipRanks versus StockAnalysis for a recent earnings release (pick any S&P 500 name). Document how quickly each site reflects updated financials. If TipRanks has a lag, escalate to data team.
+
+5. **Pricing page copy refresh.** The pricing narrative in SERPs is hurting TipRanks. Rewrite TipRanks' pricing/plans page copy to lead with exclusive features (SmartScore, insider tracking, analyst track records) rather than data volume. Volume is StockAnalysis's game; TipRanks must win on signal quality.
+
+---
+
+*Report updated: April 23, 2026 — v2 (second intelligence sweep). Additional sources: Benzinga, FindMyMoat, PinkLion, WallStreetSurvivor, Fiscal.ai changelog, App Store / Play Store listings.*
