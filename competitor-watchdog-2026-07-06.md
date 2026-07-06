@@ -6,36 +6,41 @@
 
 ### 1. Summary of What Changed
 
-**"By Issuer" Analyst Rating Page Expansion.** MarketBeat has systematically built out a templated page cluster at `/ratings/by-issuer/[issuer-slug]-stock-recommendations/` covering dozens of research firms — Bank of America, HSBC, TD, Benchmark, Weiss Ratings, and more. Each page is titled `"[Firm] Stock Recommendations & Analyst Ratings 2026"`, updated with the current year in both title and URL context. This is a programmatic SEO play targeting navigational + informational queries like *"Bank of America analyst ratings"* and *"TD stock recommendations."*
+**Redesigned Stock Screener Launched (Jan 27, 2026 — Now Indexed).** MarketBeat shipped a fully rebuilt screener experience (speed, usability, intuitive interface). Press release is indexed and generating backlinks. This is the most significant template change in 18 months and will lift screener-related rankings as the new pages accumulate authority through Q3 2026.
 
-**Traffic Acceleration.** MarketBeat's web traffic grew 11.96% month-over-month (April 2026 Similarweb), with organic search holding at 48.23% of desktop visits. This growth likely reflects the issuer-page cluster gaining index traction.
+**Earnings Call Hub Consolidated.** MarketBeat now serves live earnings call audio, AI summaries, presentations, full transcripts, and news releases from a single consolidated page per company. URL pattern: `/earnings/transcripts/`. This is a direct response to the StockAnalysis transcript threat — and it's free for S&P 500 stocks. MarketBeat is now a credible transcript destination without a paywall.
 
-**Dividend Screener & Top-Rated Dividend Stocks Tool.** MarketBeat is actively promoting a ranked dividend stock list by average analyst rating (max 4.00 score), with content syndicated to Yahoo Finance and Nasdaq. This is converting a data feature into an SEO content flywheel.
+**AI Earnings Interpretation Layer.** MarketBeat added AI-generated signals for market news and earnings data across watchlist activity. This is an AI content layer on top of existing data pages — improving perceived depth and time-on-page without requiring new URL creation.
 
-**Analyst Ratings Described as "Free and More Comprehensive than TipRanks."** Third-party review sites now consistently position MarketBeat's free tier as superior to TipRanks for analyst consensus data. This is a growing narrative threat.
+**"My MarketBeat" Dashboard Rebuilt.** Complete rebuild of the personal dashboard with customizable watchlists, personalized alerts, enhanced analyst rating view, and enhanced earnings calendar. This drives repeat visits and session depth — a behavioral SEO signal.
+
+**Premium Tier Expanded.** All Access now includes two long-form research reports per month plus exclusive analysis. This is a conversion-and-retention play, not a direct SEO move — but premium content can be repurposed into ranking assets.
+
+**Business Scale: ~$50M Revenue.** MarketBeat is approaching $50M ARR with new distribution partnerships. This signals sustained investment capacity for SEO and product in H2 2026.
 
 ### 2. Why It Matters
 
-The "by issuer" template is directly competing with TipRanks' analyst-firm pages and individual analyst profile pages — a core TipRanks SEO asset. If MarketBeat achieves top-3 rankings for queries like *"Goldman Sachs analyst ratings"* or *"JPMorgan stock recommendations,"* it bleeds high-intent traffic from TipRanks at scale. The 2026 year-stamp in titles signals they refresh these annually, which signals ongoing SEO investment.
+MarketBeat's screener redesign is the headline threat. A faster, cleaner screener with a press release and backlinks will close the UX gap that previously allowed TipRanks' Smart Screener to win on experience. The earnings hub consolidation directly counters the transcript trend — MarketBeat is now offering parity with StockAnalysis on transcripts, for free, at the S&P 500 level. Any TipRanks earnings page that lacks audio or AI summaries will look thin by comparison in the SERP.
 
-The "more comprehensive for free" narrative erodes TipRanks' perceived value proposition in review content that ranks for brand-comparison queries.
+The dashboard rebuild is an engagement signal factory: more return visits, longer sessions, more pages per visit — all positive ranking signals for the domain.
 
 ### 3. Threat Level
 
 | Finding | Threat Level |
 |---|---|
-| "By issuer" analyst rating page cluster | **High** |
-| 11.96% MoM traffic growth | **Medium** |
-| Dividend screener content flywheel | **Medium** |
-| "Better than TipRanks for free" third-party positioning | **High** |
-| Analyst ratings screener (premium) | **Low** |
+| Redesigned stock screener (new template, indexed) | **High** |
+| Earnings call hub with audio + AI summaries (free, S&P 500) | **High** |
+| AI signals layer on earnings/news pages | **Medium** |
+| "My MarketBeat" dashboard rebuild (engagement signals) | **Medium** |
+| $50M revenue scale + distribution partnerships | **Medium** |
+| Premium tier expansion | **Low** |
 
 ### 4. Recommended Response
 
-- **Build new pages:** Create TipRanks-branded analyst-firm hub pages (`/analysts/firm/goldman-sachs/`) with depth MarketBeat can't match — track record data, individual analyst rankings, accuracy scores. This is TipRanks' core moat.
-- **Refresh existing pages:** Audit TipRanks' individual analyst firm pages for title tags, freshness signals, and year-stamps. Match MarketBeat's 2026 dating strategy.
-- **Counter the narrative:** Create a comparison landing page (*"TipRanks vs MarketBeat"*) that leads with TipRanks' differentiators — individual analyst tracking, performance scores, Smart Score. Rank for branded comparison queries.
-- **Improve conversion hooks:** Add CTAs on analyst-data pages to push users toward TipRanks Premium analyst tools before MarketBeat steals the comparison.
+- **Improve template:** Audit TipRanks' screener pages against MarketBeat's rebuilt screener. Run a Core Web Vitals comparison. If MarketBeat's new screener is faster, TipRanks risks losing screener-intent rankings in Q3.
+- **Build new pages:** TipRanks must add audio or AI summary to its earnings pages. At minimum, add an "Analyst Reaction to Earnings" module that uses TipRanks' proprietary analyst-accuracy data — this is a differentiator MarketBeat cannot replicate.
+- **Improve conversion hooks:** Rebuild the earnings page experience with analyst-score-weighted sentiment to compete with the consolidated MarketBeat hub.
+- **Monitor:** Track MarketBeat's screener pages weekly through Q3 2026 for ranking movement on [stock type] screener queries.
 
 ---
 
@@ -43,57 +48,62 @@ The "more comprehensive for free" narrative erodes TipRanks' perceived value pro
 
 ### 1. Summary of What Changed
 
-**AI-Powered Earnings Call Transcripts (New Page Type).** StockAnalysis launched transcript pages at `/stocks/[ticker]/transcripts/` with audio playback, AI summaries, and per-speaker conversation view. This creates thousands of new indexable pages targeting *"[company] earnings call transcript"* queries previously owned by Seeking Alpha and The Motley Fool.
+**Fundamental Charts Moved Out of Beta (Available to All Users).** Previously a premium/beta feature, fundamental charts are now free to everyone. This significantly increases time-on-page and creates new embeddable/shareable assets — which are link magnets. Expect ranking improvements on financial-metric + chart queries.
 
-**New Filings Page Template.** Added a dedicated Filings section (quarterly/annual reports, earnings slides, proxy statements, IR docs). Another new page type generating programmatic index coverage at scale.
+**Private Companies Page Launched (`/private/`).** A new content area: biggest private companies by valuation (unicorns, pre-IPO startups). This is a keyword expansion into a cluster TipRanks does not cover — "biggest private companies 2026," "unicorn valuation," "pre-IPO companies." Low competition, high topical authority value.
 
-**Mutual Fund Screener Launched.** Free screener covering 81 metrics at `/tools/mutf-screener/`, adding a full list page at `/list/mutual-funds/`. Directly competes for *"mutual fund screener"* and *"best mutual fund"* query clusters.
+**Non-GAAP Adjusted EPS Now Default on Forecast Pages.** StockAnalysis updated `/stocks/[ticker]/forecast/` to show non-GAAP adjusted EPS as the headline figure. This aligns with analyst consensus methodology — a content quality signal that improves relevance matching for EPS estimate queries.
 
-**Brokerage Account Syncing (Pro — Beta).** Users can connect brokerages and sync holdings including options positions. This is a retention loop play that increases session depth and return visits — strong engagement signal for SEO.
+**Stock Price Alerts for All Logged-In Users.** Free users get 10 alerts; Pro gets 100; Unlimited gets unlimited. This drives account creation and return visits — the free alert tier is a growth funnel into Pro.
 
-**Fiscal.AI Integration.** Real-time financials updating within minutes of earnings for US stocks. Freshness is a ranking signal; this gives StockAnalysis a structural speed advantage over older data providers.
+**Google Sheets Export Added.** Users can now export screener/watchlist data directly to Google Sheets. This is a power-user retention feature and drives secondary SEO via tool-comparison articles citing the feature.
 
-**Screener Depth: 304 stock metrics, 107 ETF metrics.** New data points: Net Debt ratios, Sector/Industry PE multiples. Expanding screener depth drives long-tail query coverage.
+**52-Week High/Low Date Fields Added to Screener.** Adds two more searchable data points that generate long-tail query coverage.
 
-**Self-Referential Comparison Article.** StockAnalysis published *"The 8 Best Stock Research Websites in 2026"* — listing themselves first — which ranks for queries where TipRanks should own the SERP.
+**StockAnalysis Uses TipRanks as a Data Source.** Forecast pages at `/stocks/[ticker]/forecast/` are powered by S&P Global and **TipRanks** data (last updated July 2, 2026). This is a distribution partnership that puts TipRanks' data in front of StockAnalysis's audience — but on StockAnalysis's pages, not TipRanks'.
+
+**Traffic Dip: –14.38% MoM (Nov 2025 baseline).** StockAnalysis experienced a notable traffic decline. This may represent an opportunity to reclaim rankings they previously lost to TipRanks competitors.
 
 ### 2. Why It Matters
 
-The transcript + filings page expansion is a direct land-grab on content categories that are high-intent and high-session-depth. Investors searching *"[stock] Q1 2026 earnings call"* are deep in the research funnel — exactly the user TipRanks wants to convert. If StockAnalysis captures these clicks, TipRanks loses funnel entries to core analyst content.
+Fundamental charts going free is the most strategically significant move this period. Free embeddable charts = more backlinks = more domain authority = broader rankings lift across all their pages. TipRanks should note which chart-adjacent queries are now within StockAnalysis's reach.
 
-The comparison article that ranks for *"best stock research sites"* is a conversion threat: it surfaces StockAnalysis favorably to users actively shopping between platforms.
+The TipRanks data-sourcing relationship is a double-edged signal: StockAnalysis is surfacing TipRanks data, but users receive the value on StockAnalysis's domain and convert to StockAnalysis accounts — not TipRanks. TipRanks gets attribution but not the session.
 
-Brokerage sync and AI summaries are engagement-depth plays — the more time users spend on StockAnalysis, the stronger the behavioral signal to Google and the harder it becomes to displace them.
+The private companies page is a low-threat content expansion today, but sets a precedent for StockAnalysis expanding beyond public markets — a segment TipRanks should proactively own.
 
 ### 3. Threat Level
 
 | Finding | Threat Level |
 |---|---|
-| Earnings call transcript page cluster (AI summaries) | **Critical** |
-| Filings page template (new index coverage) | **High** |
-| Mutual fund screener launch | **Medium** |
-| Self-referential "best stock research" comparison article | **High** |
-| Brokerage sync / engagement depth play | **Medium** |
-| Fiscal.AI real-time data integration | **Medium** |
-| Screener depth expansion (304 metrics) | **Low** |
+| Fundamental charts free to all (link magnet, rankings lift) | **High** |
+| TipRanks data powering StockAnalysis forecast pages | **High** |
+| Private companies page (new content territory) | **Medium** |
+| Non-GAAP EPS on forecast pages (content quality signal) | **Medium** |
+| Price alerts free tier (account creation funnel) | **Medium** |
+| Google Sheets export (retention + review citations) | **Low** |
+| 52-Week High/Low date fields (long-tail coverage) | **Low** |
+| –14.38% traffic dip (potential recapture window) | **Opportunity** |
 
 ### 4. Recommended Response
 
-- **Build new pages immediately:** TipRanks must launch earnings call summary pages and/or filings pages. Even a curated, analyst-contextualized version beats a raw transcript for the high-intent user.
-- **Improve template:** Add AI-generated earnings highlights to TipRanks' existing earnings pages — if StockAnalysis is offering AI summaries free, TipRanks needs parity or better.
-- **Build new page:** Create a TipRanks-first comparison page targeting *"best stock research websites 2026"* with SEO-optimized content that ranks before StockAnalysis's self-promotional article steals that traffic.
-- **Strengthen internal linking:** Link earnings transcript and filings concepts into existing TipRanks analyst rating pages to capture long-tail coverage through existing authority.
-- **Add product modules:** Embed "earnings call sentiment" and "analyst reaction to earnings" modules on stock pages — leverage TipRanks' unique analyst data to differentiate transcript-adjacent content.
+- **Negotiate or reassess data partnership:** TipRanks is powering StockAnalysis forecast pages but capturing zero conversion from those sessions. Evaluate whether white-label attribution can be converted into backlinks, referral traffic, or co-branded landing pages.
+- **Build new pages:** Launch a private/pre-IPO company coverage area on TipRanks before StockAnalysis establishes dominance in that cluster.
+- **Improve template:** Add interactive fundamental charts (free, embeddable) to TipRanks stock pages. The link-acquisition opportunity from free embeds is significant.
+- **Exploit the traffic dip:** Identify which queries StockAnalysis recently lost rankings on. Use Ahrefs/SEMrush to find the gap and publish competitive content to capture displaced traffic.
+- **Add product modules:** Add a free-tier price alert feature to compete with StockAnalysis's alert funnel and reduce user defection.
 
 ---
 
 ## Cross-Competitor Signals
 
-Both MarketBeat and StockAnalysis are executing the same strategic playbook: **programmatic page expansion into adjacent content categories** (transcripts, filings, issuer profiles, comparison articles) to expand keyword footprint and capture deeper-funnel users at scale. Both are embedding AI features (summaries, generated rankings) into free tiers to increase session depth and user stickiness.
+Both MarketBeat and StockAnalysis are converging on the same free-tier expansion strategy: move previously premium features (AI summaries, charts, alerts, transcripts) to free, drive account creation, and monetize through retention and upsell. This compresses TipRanks' ability to differentiate on data access alone.
 
-**Key pattern:** Competitors are moving up-funnel (awareness content, screeners, comparison articles) *and* down-funnel (transcripts, filings, brokerage sync) simultaneously. This squeezes TipRanks in the middle — the mid-funnel research phase where TipRanks has historically won.
+**AI summaries on earnings/news pages** are now table stakes. Both competitors have them. TipRanks pages without AI content layers will appear thinner in the SERP as Google's quality signals increasingly weight content depth and freshness.
 
-**AI is the new content moat.** Both platforms are adding AI summaries to previously static data pages. Without AI-enhanced content layers, TipRanks' page templates will appear thinner by comparison in the SERP.
+**Engagement infrastructure** (dashboards, alerts, brokerage sync, Google Sheets export) is becoming the SEO moat — not just content. Sites with higher return-visit rates and longer sessions will benefit from behavioral ranking signals. Both competitors are investing here aggressively.
+
+**The mid-funnel squeeze is accelerating.** MarketBeat owns the top-funnel (news, screeners, dividend tools, analyst consensus). StockAnalysis owns the data/research layer (screeners, financials, transcripts). TipRanks' differentiated territory — individual analyst tracking, accuracy scores, Smart Score — is still defensible but must be made more visible and free-tier accessible to compete with the expanding free offerings of both rivals.
 
 ---
 
@@ -101,12 +111,12 @@ Both MarketBeat and StockAnalysis are executing the same strategic playbook: **p
 
 **Top 5 actions for the SEO/product/content team this week:**
 
-1. **[Critical — StockAnalysis] Launch earnings call page template.** Build `/earnings/[ticker]/transcript-summary/` pages with analyst reaction modules. Target the *"[stock] Q2 2026 earnings call"* query cluster before StockAnalysis dominates it. Even 50 pages for the S&P 500 is enough to establish the template and begin ranking.
+1. **[Critical] Add AI earnings summary + analyst reaction module to earnings pages.** Both competitors now offer free AI-powered earnings content. TipRanks' earnings pages need an "Analyst Score Impact" module that surfaces post-earnings analyst rating changes — data only TipRanks has. This differentiates while matching the AI-content expectation.
 
-2. **[High — MarketBeat] Audit and refresh analyst-firm hub pages.** Add 2026 year-stamp to titles, deepen content with TipRanks-exclusive data (analyst accuracy scores, historical prediction rates). Protect TipRanks' core SEO territory before the "by-issuer" cluster displaces it.
+2. **[High] Audit screener pages against MarketBeat's rebuilt screener.** Run Core Web Vitals and keyword ranking comparison on key screener queries (e.g., "dividend stock screener," "best growth stocks screener"). If MarketBeat's new screener is faster or cleaner, TipRanks risks losing ground in Q3.
 
-3. **[High — StockAnalysis] Publish a comparison article.** Write *"Best Stock Research Websites in 2026"* from TipRanks' perspective — or a direct *"TipRanks vs StockAnalysis"* page — targeting comparison-stage queries where StockAnalysis is now ranking. This is a conversion-stage threat.
+3. **[High] Reassess the StockAnalysis data-supply deal.** TipRanks data is powering StockAnalysis forecast pages without driving TipRanks sessions. Negotiate for a co-branded module, a "Powered by TipRanks" backlink, or redirect the data to drive users toward TipRanks directly.
 
-4. **[High — MarketBeat] Create a TipRanks vs MarketBeat landing page.** Counter the "MarketBeat is free and better" narrative that's appearing in third-party review sites. Lead with individual analyst tracking, accuracy scores, and Smart Score as differentiators MarketBeat can't replicate.
+4. **[High] Publish free embeddable fundamental charts on stock pages.** StockAnalysis's charts-going-free is a link-acquisition play. TipRanks should launch embeddable Smart Score / analyst-rating-history charts that financial bloggers can embed — generating organic backlinks at scale.
 
-5. **[Medium — Both] Run a screener depth audit.** StockAnalysis now has 304 stock metrics and a new mutual fund screener. Identify which screener queries TipRanks is not ranking for and build the product roadmap to close the gap — or add comparison content that redirects screener-intent users to TipRanks' Smart Score screener as a superior outcome tool.
+5. **[Medium] Exploit StockAnalysis's –14.38% traffic dip.** Use Ahrefs or SEMrush to identify which keywords StockAnalysis lost rankings on between October 2025 and July 2026. Prioritize content refreshes or new pages to capture that displaced traffic before StockAnalysis recovers.
